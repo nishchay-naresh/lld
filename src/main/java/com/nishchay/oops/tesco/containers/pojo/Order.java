@@ -1,10 +1,10 @@
-package com.nishchay.oops.containers.pojo;
+package com.nishchay.oops.tesco.containers.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
-    private final List<OrderItem> items = new ArrayList<>();
+    List<OrderItem> items = new ArrayList<>();
 
     public void addItem(OrderItem item) {
         items.add(item);

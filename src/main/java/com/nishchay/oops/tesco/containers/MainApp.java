@@ -1,14 +1,16 @@
-package com.nishchay.oops.containers;
+package com.nishchay.oops.tesco.containers;
 
-import com.nishchay.oops.containers.pojo.Container;
-import com.nishchay.oops.containers.pojo.Order;
-import com.nishchay.oops.containers.pojo.OrderItem;
-import com.nishchay.oops.containers.pojo.Product;
+import com.nishchay.oops.tesco.containers.pojo.Container;
+import com.nishchay.oops.tesco.containers.pojo.Order;
+import com.nishchay.oops.tesco.containers.pojo.OrderItem;
+import com.nishchay.oops.tesco.containers.pojo.Product;
 
 import java.util.Arrays;
 import java.util.List;
 
 /*
+ *
+ *
  *	Problem Statement:
  * 		Ecom has a fleet of vehicles to deliver orders to the customer.
  * 		Assigning the right set of orders to different sized vehicles is crucial.
@@ -57,7 +59,7 @@ public class MainApp {
         // Find suitable container
         Container chosenContainer = findContainerForOrder(order, containers);
         if (chosenContainer != null) {
-            System.out.println("Order fits in container id=" + chosenContainer.getId());
+            System.out.println("Order fits in container id=" + chosenContainer.id());
         } else {
             System.out.println("No container can fit the order.");
         }
@@ -78,5 +80,4 @@ public class MainApp {
         }
         return bestFit;
     }
-
 }
