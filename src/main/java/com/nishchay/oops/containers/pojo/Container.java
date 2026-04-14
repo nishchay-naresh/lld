@@ -1,10 +1,10 @@
 package com.nishchay.oops.containers.pojo;
 
 public class Container {
-    private int id;
-    private int length;
-    private int breadth;
-    private int height;
+    private final int id;
+    private final int length;
+    private final int breadth;
+    private final int height;
 
     public Container(int id, int l, int b, int h) {
         this.id = id;

@@ -46,6 +46,7 @@ public class MainApp {
         // Products
         Product p1 = new Product(1, 2, 4, 10);
         Product p2 = new Product(2, 2, 6, 4);
+        @SuppressWarnings("unused")
         Product p3 = new Product(3, 5, 6, 7);
 
         // Order
