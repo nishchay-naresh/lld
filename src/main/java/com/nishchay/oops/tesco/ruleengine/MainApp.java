@@ -24,13 +24,12 @@ import java.util.List;
  *	        Cannot buy more than 10 Quantity of any products - BulkBuyLimit
  *	        Cannot buy more than 5 Quantity of paracetamol products – BulkBuyLimitCategory
  *
- *	        Write a restriction rule engine to run the restriction check against the shopping cart/basket and return the status as to MET/BREACHED indicating restriction
- *	        status for the given restriction rules.
+ *	        Write a restriction rule engine to run the restriction check against the shopping cart/basket and
+ *          Return the status as to MET/BREACHED indicating restriction status for the given restriction rules.
  *	        For the above given example, the restriction status returned would be MET.
  *
  * */
 public class MainApp {
-
 
     /*
      *	You are given:
